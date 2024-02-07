@@ -5,6 +5,7 @@ provider "registry.terraform.io/digitalocean/digitalocean" {
   version     = "2.5.1"
   constraints = "2.5.1"
   hashes = [
+    "h1:UMxJ1MfOdamlVx4AGInfiZu5mCJyi5PW+8ct03kEQZs=",
     "h1:k9itTwJzUpMBTYsXYPoEW/fyoDOcteQc4+OMRmFErbc=",
     "zh:057b8fa0f95213e7d856208d456175335fb673cfef14abf41193f0a2d76e1210",
     "zh:0daee13dd46de95ce2550459942c1433290798bfb5faac12781f81799dd6b05c",
@@ -27,6 +28,7 @@ provider "registry.terraform.io/kreuzwerker/docker" {
   constraints = "2.11.0"
   hashes = [
     "h1:2BuPcSQY9DSRhPufzrbiGyMW2NX1qqXkH1KfzrMUQmU=",
+    "h1:Qzz/xfsrolaSd7Qnxk330hjmCiHqy/n0C2T3k58EDDg=",
     "zh:1b9d93385cc0329467725ce90affc76a361bc23384a7358431e6ee281ae323de",
     "zh:21a327746cdad2abfc22df3d72eb9b36134bb7daeb72b2a52112adfd3a39555a",
     "zh:31ed477f429686015271188b03e89bfc400b74eea9e83956ea4cc16018b561f3",

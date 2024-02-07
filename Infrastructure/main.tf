@@ -1,12 +1,12 @@
 provider "aws" {
-    region = "eu-west-2"
-  }
+  region = "eu-west-2"
+}
 terraform {
-    backend "s3" {
-        bucket = "worth-kubernetes-state"
-        region = "eu-west-2" 
-        key = "terraform-state"
-    }
+  backend "s3" {
+    bucket = "worth-kubernetes-state-new"
+    region = "eu-west-2"
+    key    = "terraform-state"
+  }
 }
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0

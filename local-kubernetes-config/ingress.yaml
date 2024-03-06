@@ -13,6 +13,13 @@ spec:
           - pathType: ImplementationSpecific
             backend:
               service:
+                name: api-2-service
+                port:
+                  number: 80
+            path: /api-2(/|$)(.*)
+          - pathType: ImplementationSpecific
+            backend:
+              service:
                 name: api-service
                 port:
                   number: 80

@@ -16,6 +16,13 @@ spec:
                 name: frontend-service
                 port:
                   number: 80
+            path: /api(/|$)(.*)
+          - pathType: ImplementationSpecific
+            backend:
+              service:
+                name: api-service
+                port:
+                  number: 80
             path: /static-frontend(/|$)(.*)
           - pathType: ImplementationSpecific
             backend:

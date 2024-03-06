@@ -31,3 +31,6 @@ spec:
           image: domhall/kubernetes-frontend:latest
           ports:
             - containerPort: 3000
+          env:
+            - name: API_URL
+              value: "http://api-service"

@@ -1,0 +1,5 @@
+version: "3.1"
+services:
+  kubernetes-frontend:
+    image: domhall/kubernetes-api-2:latest
+    build: .

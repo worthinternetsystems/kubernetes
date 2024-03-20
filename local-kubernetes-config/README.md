@@ -8,5 +8,4 @@
 # Running
 
     ./setup
-    cd ../
-    kubectl apply -f local-kubernetes-config
+    kubectl apply -f deployment

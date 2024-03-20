@@ -33,6 +33,11 @@ spec:
           env:
             - name: API_URL
               value: "http://api-service"
+          resources:
+            limits:
+              cpu: 200m
+            requests:
+              cpu: 200m
 ---
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
@@ -51,4 +56,4 @@ spec:
         name: cpu
         target:
           type: Utilization
-          averageUtilization: 1
+          averageUtilization: 50

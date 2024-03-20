@@ -2,6 +2,8 @@
 ## Ref: https://github.com/kubernetes-sigs/metrics-server/blob/metrics-server-helm-chart-3.8.2/charts/metrics-server
 ##
 
+args:
+  - --kubelet-insecure-tls
 # Number of metrics-server replicas to run
 replicas: 2
 
@@ -19,4 +21,4 @@ hostNetwork:
   # You would require this enabled if you use alternate overlay networking for pods and
   # API server unable to communicate with metrics-server. As an example, this is required
   # if you use Weave network on EKS
-  enabled: true
+  enabled: false

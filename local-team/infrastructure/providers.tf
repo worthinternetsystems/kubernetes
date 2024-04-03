@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "violet-hall-terraform-states-kerv"
-    key    = "kuberetes-example/state"
+    bucket = "worth-k8s-hello-world-state"
+    key    = "local-team/state"
     region = "eu-west-2"
   }
   required_providers {

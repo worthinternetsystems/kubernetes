@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: service-discovery-config
+data:
+  api_url: "http://api-service"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: service-discovery-config-2
+data:
+  api_url: "http://api-servicsdvfde"
